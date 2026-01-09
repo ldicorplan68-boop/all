@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTCSALES Department - Department Access System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OTCSALES Department</h1>
+            <div class="user-info">
+                <span id="userInfo"></span>
+                <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+            </div>
+        </header>
+
+        <nav class="department-nav">
+            <div class="department-badge">
+                <span class="badge-text">OTCSALES Department</span>
+            </div>
+        </nav>
+
+        <div id="dataContainer" class="data-container">
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading OTCSALES data...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load JavaScript files -->
+    <script src="otcsales.js"></script>
+</body>
+</html>
